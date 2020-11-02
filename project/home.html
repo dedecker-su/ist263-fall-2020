@@ -5,74 +5,77 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0, 
       shrink-to-fit=no">
       <title>First Baptist Church Home</title>
-      <!-- CSS placeholder 
-      <link rel="stylesheet" href= font awesome once obtained">
-      <link rel="stylesheet" href="filename.css">-->    
+      <link rel="stylesheet" href="home.css"> 
+      <style>
+        /* flexbox css */
+        .row-full {display: flex;}
+        </style> 
     </head>
     <body>
-    
+    <div class="home-page-container">
+      <div id="row-full"></div>
+   </div>
     <!-- Rectangle (sit on top) -->  
-    <div class="text-block">Join us on Sundays at 10:30 am!</div>  
-    
-    <!-- First Baptist Church Wordmark (left on page)-->
-    <a href="home.html" class="wordmark-button">First Baptist Church</a>
+      <div id="top-banner">Join us on Sundays at 10:30 am!</div>  
     
     <!-- Navigation Bar (right on image) -->
-    <nav>
-      <ul>
-        <li><a href="home.html">Home</a></li>
-        <li><a href="pages/about.html">About</a></li>
-        <li><a href="pages/connect.html">Connect</a></li>
-      </ul>
-     </nav>
-     
-    <!--Selection Drop-Down Menu on Right-->
-    <div class="drop-down-select" style="width:200px;">
-  		<select>
-    		<option value="0">Select</option>
-    		<option value="1">Home</option>
-    		<option value="2">About</option>
-    		<option value="3">Connect</option>
-  		</select>
-	</div>
-    
-    <!--add relative image-->
-  	<img src="images/firstbaptistoutside.jpg" alt="First Baptist Church" style="width:500px;height:600px;">
-  	<h1>First Baptist Church</h1>
+      <div id="nav-bar">
+        <nav>
+          <a href="home.html">First Baptist Church</a>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="pages/about.html">About</a></li>
+            <li><a href="pages/connect.html">Connect</a></li>
+          </ul>
+        </nav>
+     </div>
+
+     <!--<div id="home-image-1"></div>-->
+
+     <div id="lighthouse-on-the-square">
+      <div id="lighthouse-on-the-square-text">
+        <h1 class="lighthouse-on-the-square-text">The Lighthouse on the Square</h1>
+        <p class="lighthouse-on-the-square-text">First Baptist Church sits on what is referred to as "The Square", which is downtown Watertown, NY, and we see our church's ministry as a lighthouse to the community there and beyond. Lighthouses are known for being lifesavers in storms, helping to guide to safety.  We, at First Baptist Church, want to be a light to those struggling in the dark throes of life, sharing with them what Christ came to accomplish here on earth, how much He loves them, and how He desires to set them free from all that ensnares them. John 8:12 says:  Then spake Jesus again unto them, saying, I am the light of the world: he that followeth me shall not walk in darkness, but shall have the light of life. (KJV)</p>
+      </div>
+    </div>
     
     <!--middle section-->
     <!-- Sermons -->
-    <h2>This Week's Sermon</h2>
-    <h3>Next Worship Service: October 25, 2020 </h3>
-    <a href="Calendar" class="calendar-button">Add to Calendar</a><br>
-    <iframe width="420" height="315"
-src="https://www.youtube.com/embed/WaR-xP1Lco0">
-	<!--Change Video Size-->
-</iframe><br>
+      <div id="sermons">
+        <div><p class="first">Previous Sermons</p></div>
+        <div><p class="second">Next Worship Service:</p></div><br>
+        <div><p class="third">This Sunday at 10:30 AM</p></div><br><br>
+          <div id="video">
+            <iframe width= "720" height ="480" src="https://www.youtube.com/embed/WaR-xP1Lco0"></iframe>
+          </div>
+      </div>
     
     <!--Info about the church -->
-    <!--Change Picture-->
-    <img src="images/whosoeverchurch.jpg" alt="The Whosoever Church" style="width:500px;height:600px;">
-    <h1>The Whosoever Church</h1>
-    <p>We have a heart of compassion for people who are in need.  We count it an honor to minister to everyone God leads to our doors.  Our congregation cuts across all societal lines, including those on the streets, criminals, and drug addicts.  We do not shy away from caring for those who are generally not welcomed or loved elsewhere.  We don't look at color, wealth (or lack of), or anything else that may be a dividing wall in regular society.  Our message of reconciliation to our Heavenly Father through Jesus Christ is for everyone, and that life need not be lived in despair and hopelessness.  There is freedom in Christ!  For who? Whosoever! Whatever condition that you're in, you're welcome here at the First Baptist Church.</p>
-    
+    <div id="whosoever-church">
+      <div id="whosoever-text">
+      <h1 class="whosoever-text">The Whosoever Church</h1>
+      <p class="fourth">We have a heart of compassion for people who are in need.  We count it an honor to minister to everyone God leads to our doors.  Our congregation cuts across all societal lines, including those on the streets, criminals, and drug addicts.  We do not shy away from caring for those who are generally not welcomed or loved elsewhere.  We don't look at color, wealth (or lack of), or anything else that may be a dividing wall in regular society.  Our message of reconciliation to our Heavenly Father through Jesus Christ is for everyone, and that life need not be lived in despair and hopelessness.  There is freedom in Christ!  For who? Whosoever! Whatever condition that you're in, you're welcome here at the First Baptist Church.</p>
+      </div>
+    </div>
+
     <!--Visit, Give, Connect-->
-    <img src="images/visit.jpg" alt="Roads" style="width:500px;height:600px;">
-    <h2>Visit</h2>
+    <div id="visit">
+      <div id="visit-button"><a href="pages/connect.html">Visit</a></div>
+    </div>
+  
+    <div id="give">
+      <div id="give-button"><a href="pages/connect.html">Give</a></div>
+    </div>
+
+    <div id="connect">
+      <div id="connect-button"><a href="pages/connect.html">Connect</a></div>
+    </div>
     
-    <img src="images/give.jpg" alt="Money in Plate" style="width:500px;height:600px;">
-    <h2>Give</h2>
-    
-    <img src="images/connect.jpg" alt="Connect With Us!" style="width:500px;height:600px;">
-    <h2>Connect</h2>
-    
-    <!--Replace potentially with image?-->
-    <h1>Jesus Christ.</h1>
+    <div id="footer">
+      <p class="left">Copyright First Baptist Church<br>207 State Street Watertown, NY 13601<br>315-782-1051<br>
+  	  <a href="https://www.facebook.com/First-Baptist-Church-308951212491472/">Like Us on Facebook | </a>
+        <a href="https://www.youtube.com/channel/UCA083bOE1V15k5-hwCgKaCw">Watch Us on YouTube</a></p>
+      <p class="right">JESUS CHRIST.</p>
+    </div>
     </body>
-    
-    <footer>
-  	<p>Copyright First Baptist Church<br>207 State Street Watertown, NY 13601<br>315-782-1051</p>
-  	<p><a href="https://www.facebook.com/First-Baptist-Church-308951212491472/">Facebook</a>
-        <a href="https://www.youtube.com/channel/UCA083bOE1V15k5-hwCgKaCw">YouTube</a></p>
-    </footer>
 </html>
