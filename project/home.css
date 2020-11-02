@@ -1,0 +1,38 @@
+* {font-family: Helvetica;}
+.row-full {width: 100vw; position: relative; margin-left: -50vw; height: 100px; margin-top: 100px; left: 50%}
+.home-page-container {background-color:#fff; width: 1024px; margin: 0 auto; padding: 0;}
+#top-banner {background-color:#161925f1; margin-left:0em; margin-top: 0em; width: 100%; height: auto; padding: 0.5em; display: inline-block; color: #fff; text-align: center;}
+#nav-bar {display: inline-block; width: 100%; height: 100vh; background-image: url(images/fbbluebanner.jpg); background-size: cover; margin: 0; padding: 0; }
+nav {width:100%; height: 80px; line-height: 60px;}
+nav a {float: left; margin-left: 30px; vertical-align: top; text-decoration: none; color: #fff; font-size: 30px; padding:15px;}
+nav ul {float: right; margin-top: 0px; margin-right: 30px;}
+nav ul li {list-style-type: none; display: inline-block;}
+nav ul li a {text-decoration: none; color: #fff; 
+   font-size: 16px; padding: 15px;}
+* {box-sizing: border-box; }
+#lighthouse-on-the-square {display: inline-block; width: 100%; height: 100vh; background-image: url(images/connecttop.jpg); background-size: cover; }
+#lighthouse-on-the-square-text{text-align: center; position: relative; top: 25%; transform: translateY(5%); padding: 70px; background-color: #161925dc; }
+h1.lighthouse-on-the-square-text {color: #fff; font-size: 50px; }
+p.lighthouse-on-the-square-text {color: #fff; text-align: center; position: relative; bottom: -2%; font-size: 20px;}
+#sermons {display: inline-block; width: 100%; height: 100vh; margin: 0px; padding: 0; background-color: #161925; background-size: cover;}
+p.first {display: block; margin-left:70px; text-decoration: none; color: #fff; font-size: 50px;}
+p.second {display: block; margin-top: -100px; margin-right: 70px; text-align: right; color: #fff; font-size: 20px;}
+p.third {display: block; margin-top: -10px; margin-right: 70px; text-align: right; color: #5fffff; font-size: 16px;}
+#video {display: flex; flex-direction: column; align-items: center; }
+#whosoever-church {display: inline-block; width: 100%; height: 80vh; background-image: url(images/whosoeverchurch.jpg); background-size: cover; }
+#whosoever-text {text-align: center; position: relative; top: 15%; transform: translateY(5%); padding: 70px; background-color: #161925dc; }
+h1.whosoever-text {color: #fff; font-size: 50px; }
+p.fourth {color: #fff; font-size: 20px; bottom: -2%; }
+#visit {float: left; width: 33.2%; height: 33vh; background-image: url(images/visit.jpg); background-size: cover; padding: 0; margin: 0; border: none; position: relative;}
+#visit-button {text-align: center; margin: 0px; position: relative; top: 50%; left: 0%; -ms-transform: translateY(-50%); transform: translateY(-50%); } 
+#visit-button a {text-decoration: none; color: #fff; font-size: 50px; }
+#give {display: inline-block; width: 33%; height: 33vh; background-image: url(images/give.jpg); background-size: cover; margin: 0; padding: 0; border: none; }
+#give-button {text-align: center; margin: 0px; top: 50%; left: 0%; -ms-transform: translateY(-50%); transform: translateY(-50%); position: relative; }
+#give-button a {text-decoration: none; color: #fff; font-size: 50px; }
+#connect {float: right; width: 33.2%; height: 33vh; background-image: url(images/connect.jpg); background-size: cover; padding: 0; margin: 0; border: none; }
+#connect-button {text-align: center; margin: 0px; position: relative; top: 50%; left: 0%; -ms-transform: translateY(-50%); transform: translateY(-50%);} 
+#connect-button a {text-decoration: none; color: #fff; font-size: 50px; }
+#footer {display: inline-block; width: 100%; height: auto; background-color: #161925; background-size: cover; }
+p.left {color: #fff; font-size: 16px; padding-left: 10px; }
+p.left a {text-decoration: none; color: #5fffff; font-size: 12px; }
+p.right {float: right; color: #fff; font-size: 20px; padding-right: 10px; margin: 0; }
