@@ -1,0 +1,25 @@
+* {font-family: Helvetica;}
+.row-full {width: 100vw; position: relative; margin-left: -50vw; height: 100px; margin-top: 100px; left: 50%}
+.about-page-container {background-color:#fff; width: 1024px; margin: 0 auto; padding: 0;}
+#top-banner {background-color:#161925f1; margin-left:0em; margin-top: 0em; width: 100%; height: auto; padding: 0.5em; display: inline-block; color: #fff; text-align: center;}
+#nav-bar {display: inline-block; width: 100%; height: 100px; background-color: #161925; background-size: cover;}
+nav {width:100%; height: 80px; line-height: 60px;}
+nav a {float: left; margin-left: 30px; vertical-align: top; text-decoration: none; color: #fff; font-size: 30px; padding:15px;}
+nav ul {float: right; margin-top: 0px; margin-right: 30px;}
+nav ul li {list-style-type: none; display: inline-block;}
+nav ul li a {text-decoration: none; color: #fff;
+  font-size: 16px; padding: 15px;}
+#connect-image-1 {display: inline-block; width: 100%; height: 100vh; background-image: url(../images/connect.jpg); background-size: cover; }
+#connect-text-1 {text-align: center; position: relative; top: 60%; transform: translateY(5%); padding: 70px; background-color: #161925dc; }
+h1.connect-text-1 {color: #fff; font-size: 50px; }
+#contact-form {display: inline-block; width: 100%; height: auto; background-color: #fff; margin-bottom: 30px; border-radius: 5px; padding: 20px;}
+p.contact-1 {margin-left: 10px; color: #161925; font-size: 40px; }
+p.contact-2 {margin-left: 10px; margin-bottom: 50px; color: #161925; font-size: 25px; }
+label {margin-left: 10px; color: #161925; font-size: 16px; font-weight: bold;}
+input[type=text], select, textarea {width: 98%; padding: 12px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; margin-top: 6px; margin-bottom: 16px; margin-left: 10px; resize: vertical; }
+input[type=submit] {background-color: #161925; color: white; padding: 12px 20px; border: none; border-radius: 4px; margin-left: 10px; cursor: pointer; }
+input[type=submit]:hover {background-color: #4dcccc;}
+#footer {display: inline-block; width: 100%; height: auto; background-color: #161925; background-size: cover; }
+p.left {color: #fff; font-size: 16px; padding-left: 10px; }
+p.left a {text-decoration: none; color: #5fffff; font-size: 12px; }
+p.right {float: right; color: #fff; font-size: 20px; padding-right: 10px; margin: 0; }

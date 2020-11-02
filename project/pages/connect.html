@@ -4,73 +4,100 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0, 
       shrink-to-fit=no">
-      <title>First Baptist Church Home</title>
-      <!-- CSS placeholder 
-      <link rel="stylesheet" href= font awesome once obtained">
-      <link rel="stylesheet" href="filename.css">-->    
-    </head>
-    <body>
-    
-    <!-- Rectangle (sit on top) -->  
-    <div class="text-block">Join us on Sundays at 10:30 am!</div>  
-    
-    <!-- First Baptist Church Wordmark (left on page)-->
-    <a href="../home.html" class="wordmark-button">First Baptist Church</a>
-    
-    <!-- Navigation Bar (right on image) -->
-    <nav>
-      <ul>
-        <li><a href="../home.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="connect.html">Connect</a></li>
-      </ul>
-     </nav>
-     
-    <!--Selection Drop-Down Menu on Right-->
-    <div class="drop-down-select" style="width:200px;">
-  		<select>
-    		<option value="0">Select</option>
-    		<option value="1">Home</option>
-    		<option value="2">About</option>
-    		<option value="3">Connect</option>
-  		</select>
-	</div>
+      <title>First Baptist Church Connect</title>
+      <link rel="stylesheet" href="connect.css">    
+      <style>
+        /* flexbox css */
+        .row-full {display: flex;}
+        .column {
+        float: left;
+        width: 47%;
+        padding: 10px;
+        }
+      /* Clear floats after image containers */
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+        }
+      @media screen and (max-width: 500px) 
+      {
+        .column {
+          width: 100%;
+        }
+      }
+      </style>  
+  </head>
+
+  <body>
+    <div class="connect-page-container">
+      <div id="row-full"></div>
+    </div>
+      
+     <!--Rectangle (sit on top)-->  
+    <div id="top-banner">Join us on Sundays at 10:30 am!</div>
+      
+      <!--Navigation Bar (right on image-->
+      <div id="nav-bar">
+        <nav>
+          <a href="../home.html">First Baptist Church</a>
+            <ul>
+              <li><a href="../home.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="connect.html">Connect</a></li>
+            </ul>
+        </nav>
+      </div>
     
     <!--Form-->
-    <h1>Connect With Us!</h1>
-    <p>We'd love to get to know you!<br>Please fill out the information below so we can be in touch.</p>
-    <form action="/action_page.php">
-      <label for="fname">First name:</label>
-      <input type="text" id="fname" name="fname"><br><br>
-      <label for="lname">Last name:</label>
-      <input type="text" id="lname" name="lname"><br><br>
-      <label for="lname">Phone Number:</label>
-      <input type="text" id="lname"name="lname"><br><br>
-      <label for="lname">Email:</label>
-      <input type="text" id="lname"name="lname"><br><br>
-      <label for="lname">Address:</label>
-      <input type="text" id="lname"name="lname"><br><br>
-      <input type="submit" value="Submit">
-    </form>
-    
-    <!--Map-->
-    <img src="../images/visit.jpg" alt="Roads" style="width:500px;height:600px;">
-    <p>Visit us at 207 State Street Watertown, NY 13601<p><br>
-    <a href="https://www.google.com/maps/place/207+State+St,+Watertown,+NY+13601/@43.9744177,-75.909954,17z/data=!3m1!4b1!4m5!3m4!1s0x89d86ffd97b578a3:0x88358713e5351cae!8m2!3d43.9744139!4d-75.90776">Get Directions!</a>
-    
-    <!--Calendar-->
-     <!--Will be side by side-->
-    <img src="../images/calendar.jpg" alt="Calendar" style="width:500px;height:600px;">
-    <p>Join us for next week's service, and our events throughout the week!<p><br>
-    <!-- not sure what to link this to yet<a href="Calendar">Join Us!</a>-->
-    
-    <!--Replace potentially with image?-->
-    <h1>Jesus Christ.</h1>
-    </body>
 
-    <footer>
-      <p>Copyright First Baptist Church<br>207 State Street Watertown, NY 13601<br>315-782-1051</p>
-      <p><a href="https://www.facebook.com/First-Baptist-Church-308951212491472/">Facebook</a>
-        <a href="https://www.youtube.com/channel/UCA083bOE1V15k5-hwCgKaCw">YouTube</a></p>
-    </footer>
+      <div id="connect-image-1">
+        <div id="connect-text-1">
+          <h1 class="connect-text-1">Connect With Us!</h1>
+        </div>
+      </div>
+
+      <div id="contact-form">
+        <p class="contact-1">We'd love to get to know you!</p>
+        <p class="contact-2">Please fill out the information below so we can be in touch.</p>
+        <form action="/action_page.php">
+          <label for="fname">First Name:</label>
+          <input type="text" id="fname" name="fname"><br><br>
+          <label for="lname">Last Name:</label>
+          <input type="text" id="lname" name="lname"><br><br>
+          <label for="lname">Phone Number:</label>
+          <input type="text" id="pnumber" name="pnumber"><br><br>
+          <label for="lname">Email:</label>
+          <input type="text" id="email" name="email"><br><br>
+          <label for="lname">Address:</label>
+          <input type="text" id="address" name="address"><br><br>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+        <!--Map-->
+      <div id="bottom-map-cal">
+        <div class="row">
+            <div class="column">
+              <img src="../images/visitoutside.jpg" alt="Roads" style="width:100%">
+              <p>Visit us at 207 State Street Watertown, NY 13601<p>
+              <a href="https://www.google.com/maps/place/207+State+St,+Watertown,+NY+13601/@43.9744177,-75.909954,17z/data=!3m1!4b1!4m5!3m4!1s0x89d86ffd97b578a3:0x88358713e5351cae!8m2!3d43.9744139!4d-75.90776">Get Directions!</a>
+            </div>
+        
+        <!--Calendar-->
+        <!--Will be side by side, need to fix-->
+        <!-- not sure what to link this to yet-->
+          <div class="column">
+            <img src="../images/calendar.jpg" alt="Calendar" width=100% height=100%>
+            <p>Join us for next week's service, and our events throughout the week!</p><br>
+          </div>
+        </div> 
+      </div>
+ 
+    <div id="footer">
+      <p class="left">Copyright First Baptist Church<br>207 State Street Watertown, NY 13601<br>315-782-1051<br>
+      <a href="https://www.facebook.com/First-Baptist-Church-308951212491472/">Like Us on Facebook | </a>
+      <a href="https://www.youtube.com/channel/UCA083bOE1V15k5-hwCgKaCw">Watch Us on YouTube</a></p>
+      <p class="right">JESUS CHRIST.</p>
+    </div>
+  </body>
 </html>
