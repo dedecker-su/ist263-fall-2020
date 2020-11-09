@@ -10,7 +10,7 @@ nav ul li {list-style-type: none; display: inline-block;}
 nav ul li a {text-decoration: none; color: #fff; 
    font-size: 16px; padding: 15px;}
 * {box-sizing: border-box; }
-#lighthouse-on-the-square {display: inline-block; width: 100%; height: 100vh; background-image: url(images/connecttop.jpg); background-size: cover; }
+#lighthouse-on-the-square {display: inline-block; width: 100%; height: 100vh; background-image: url(images/connecttop.jpg); background-size: cover; margin-top: -4px; padding: 0}
 #lighthouse-on-the-square-text{text-align: center; position: relative; top: 25%; transform: translateY(5%); padding: 70px; background-color: #161925dc; }
 h1.lighthouse-on-the-square-text {color: #fff; font-size: 50px; }
 p.lighthouse-on-the-square-text {color: #fff; text-align: center; position: relative; bottom: -2%; font-size: 20px;}
@@ -26,10 +26,10 @@ p.fourth {color: #fff; font-size: 20px; bottom: -2%; }
 #visit {float: left; width: 33.2%; height: 33vh; background-image: url(images/visit.jpg); background-size: cover; padding: 0; margin: 0; border: none; position: relative;}
 #visit-button {text-align: center; margin: 0px; position: relative; top: 50%; left: 0%; -ms-transform: translateY(-50%); transform: translateY(-50%); } 
 #visit-button a {text-decoration: none; color: #fff; font-size: 50px; }
-#give {display: inline-block; width: 33%; height: 33vh; background-image: url(images/give.jpg); background-size: cover; margin: 0; padding: 0; border: none; }
+#give {display: inline-block; width: 33%; height: 33vh; background-image: url(images/give.jpg); background-size: cover; margin-right: -10px; padding: 0; border: none; }
 #give-button {text-align: center; margin: 0px; top: 50%; left: 0%; -ms-transform: translateY(-50%); transform: translateY(-50%); position: relative; }
 #give-button a {text-decoration: none; color: #fff; font-size: 50px; }
-#connect {float: right; width: 33.2%; height: 33vh; background-image: url(images/connect.jpg); background-size: cover; padding: 0; margin: 0; border: none; }
+#connect {float: right; width: 33.2%; height: 33vh; background-image: url(images/connect.jpg); background-size: cover; padding: 0; margin: 0px; border: none; }
 #connect-button {text-align: center; margin: 0px; position: relative; top: 50%; left: 0%; -ms-transform: translateY(-50%); transform: translateY(-50%);} 
 #connect-button a {text-decoration: none; color: #fff; font-size: 50px; }
 #footer {display: inline-block; width: 100%; height: auto; background-color: #161925; background-size: cover; }
