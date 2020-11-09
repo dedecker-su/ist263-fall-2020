@@ -9,7 +9,7 @@ nav ul {float: right; margin-top: 0px; margin-right: 30px;}
 nav ul li {list-style-type: none; display: inline-block;}
 nav ul li a {text-decoration: none; color: #fff;
   font-size: 16px; padding: 15px;}
-#connect-image-1 {display: inline-block; width: 100%; height: 100vh; background-image: url(../images/connect.jpg); background-size: cover; }
+#connect-image-1 {display: inline-block; width: 100%; height: 100vh; background-image: url(../images/connect.jpg); background-size: cover; margin-top: -3px;}
 #connect-text-1 {text-align: center; position: relative; top: 60%; transform: translateY(5%); padding: 70px; background-color: #161925dc; }
 h1.connect-text-1 {color: #fff; font-size: 50px; }
 #contact-form {display: inline-block; width: 100%; height: auto; background-color: #fff; margin-bottom: 30px; border-radius: 5px; padding: 20px;}
