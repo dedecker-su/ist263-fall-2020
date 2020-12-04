@@ -4,86 +4,142 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0, 
       shrink-to-fit=no">
-      <title>First Baptist Church About</title>
-      <link rel="stylesheet" href="about.css">  
-      <style>
-        /* flexbox css */
-        .row-full {display: flex;}
-      </style>     
-    </head>
-    <body>
-      <div class="about-page-container">
-        <div id="row-full"></div>
-     </div>
-      <!-- Rectangle (sit on top) -->  
-        <div id="top-banner">Join us on Sundays at 10:30 am!</div>  
+      <title>First Baptist Church About</title> 
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+      <link rel="stylesheet" href="about.css"> 
+  </head>
+  <body>
+    <section class="background-entire-page">      
       
-      <!-- Navigation Bar (right on image) -->
-        <div id="nav-bar">
-          <nav>
-            <a href="../home.html">First Baptist Church</a>
-            <ul>
-              <li><a href="../home.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="connect.html">Connect</a></li>
-            </ul>
-          </nav>
-       </div>
+      <section class="banner">
+        <div class="banner-container">
+          <p>Join us on Sundays at 10:30 AM!<p>
+        </div>
+      </section>
 
-       <div id="about-image-1"></div>
-      <div class="row">
-        <div class="column" style="background-color: #161925">
-          <div class="text-beliefs">
-            <h2>Our Beliefs</h2>
-            <p>We believe... In only one God who is the creator of all things and being 
-            in the Trinity of the Father, Son, and Holy Ghost.<br>
-            We believe...The Son of God, Jesus Christ, became incarnate, was begotten by the Holy Ghost, born of a virgin, and is the true God and true man.<br></p>
-            <a href="#Our_Beliefs">Learn More</a>
+      <section class="nav-container">
+        <nav class="navbar navbar-light" style="background-color: #f3f3f3">
+          <a class="navbar-brand" style="color: #161925f1" href="../home.html">First Baptist Church
+                    </a>
+            <ul class="nav justify-content-end">
+              <li class="nav-item">
+              <a class="nav-link active" style="color: #161925f1" href="../home.html">Home</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" style="color: #161925f1" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" style="color: #161925f1" href="connect.html">Connect</a>
+              </li>
+            </ul>
+        </nav>
+      </section>
+
+      <section class="main-container">
+        <div class="outsidefb-image">
+            <img src="../images/outsidefb.jpg" class="img-fluid w-100" alt="View of First Baptist from Watertownn Public Square.">
+        </div>
+      </section>
+
+      <section class="main-container-2">
+        <div class="card-group">
+          <div class="card">
+            <div class="card-body" style="background-color: #161925f1;">
+              <h5 class="card-title" style="color: #fff">Pastor's Greeting</h5>
+              <p class="card-text" style="color: #fff">As the Senior Pastor of the First Baptist Church, I would like to personally extend an open invitation to whoever, regardless of wherever you come from or whatever condition you are in.</p>
+              <a class="card-button" href="#pastor's-greeting">Learn More</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body" style="background-color: #161925f1;">
+              <h5 class="card-title" style="color: #fff">Sermons</h5>
+              <p class="card-text" style="color: #fff">We are so happy to be able to provide those who are home-bound, those who could not make a service, those who are searching for purpose in life, or those who are military - currently away protecting our freedoms, the opportunity to stay connected with our church.  May the Lord richly bless you and speak to you today through the preaching of His Word!</p>
+              <a class="card-button" href="#sermons">Learn More</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body" style="background-color: #161925f1;">
+              <h5 class="card-title" style="color: #fff">Our Beliefs</h5>
+              <p class="card-text" style="color: #fff">We believe... In only one God who is the creator of all things and being 
+                in the Trinity of the Father, Son, and Holy Ghost.<br><br>
+                We believe...The Son of God, Jesus Christ, became incarnate, was begotten by the Holy Ghost, born of a virgin, and is the true God and true man.</p>
+              <a class="card-button" href="#our-beliefs">Learn More</a>
+            </div>
           </div>
         </div>
-        <div class="column" style="background-color: #161925">
-          <h2>Pastor's Greeting</h2>
-          <p>As the Senior Pastor of the First Baptist Church, I would like to personally extend an open invitation to whoever, regardless of wherever you come from or whatever condition you are in.</p>
-          <a href="#Pastor's_Greeting">Learn More</a>
+      </section>
+
+      <section class="main-container-3">
+        <div class="card mb-3">
+          <div class="row no-gutters">
+            <div class="col-md-8">
+              <div class="card-body" style="background-color: #fff; padding: 130px 50px;">
+                <h5 class="card-title" style="color: #161925f1; font-size: 40px;">Pastor's Greeting</h5>
+                <p id="pastor's-greeting" class="card-text" style="color: #161925f1; font-size: 20px; padding-top: 1vw;">As the Senior Pastor of the First Baptist Church, I would like to personally extend an open invitation to whoever, regardless of wherever you come from or whatever condition you are in.  We are here to greet you with love, to treat you with respect, and to bring forth The Word of God as God has given it to us - in His Word.  We preach and we teach out of The Word of God and The Word of God only, and that's what you'll  be hearing and seeing here at The First Baptist Church.<br><br>- Pastor Jeffrey E. Smith</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <img src="../images/pastorgreeting.jpg" class="card-img" alt="A smiling picture of Pastor Jeffrey E. Smith in a white suit sitting in a chair">
+            </div>
+          </div>
         </div>
-        <div class="column" style="background-color: #161925">
-          <h2>Sermons</h2>
-          <p>We are so happy to be able to provide those who are home-bound, those who could not make a service, those who are searching for purpose in life, or those who are military - currently away protecting our freedoms, the opportunity to stay connected with our church.  May the Lord richly bless you and speak to you today through the preaching of His Word!</p>
-          <a href="#Sermons">Learn More</a>
+      </section>
+
+      <section class="main-container-4">
+        <div class="card mb-3">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="../images/sermons.jpg" class="card-img" alt="A picture of Pastor Jeffrey E. Smith washing men's feet during a sermon.">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body" style="background-color: #fff; padding: 170px 50px;">
+                <h5 class="card-title" style="color: #161925f1; font-size: 40px;">Sermons</h5>
+                <p id="sermons" class="card-text" style="color: #161925f1; font-size: 20px; padding-top: 1vw;">We are so happy to be able to provide those who are home-bound, those who could not make a service, those who are searching for purpose in life, or those who are military - currently away protecting our freedoms, the opportunity to stay connected with our church.  May the Lord richly bless you and speak to you today through the preaching of His Word!</p>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    <!--middle section-->
-    <!-- Links to  -->
-    <div id="middle-beliefs">
-      <img src="../images/thomas-curryer-8R6ZEbI13_I-unsplash.jpg" alt="Geometric Cross in Front of Black Background with Lights" class="middle-beliefs-image"/>
-    <!--<h3 class="middle-heading">Our Beliefs</h3>-->
-    <p id="Our_Beliefs" class="text-middle-beliefs-header">Our Beliefs</p><br><p class="text-middle-beliefs">We believe... In only one God who is the creator of all things and being 
-        in the Trinity of the Father, Son, and Holy Ghost.<br><br>
-        We believe...The Son of God, Jesus Christ, became incarnate, was begotten by the Holy Ghost, born of a virgin, and is the true God and true man.<br><br>
-        We believe...The Bible, in it's entirety, to be the inspired Word of 
-        God and the only infallible rule of faith and conduct.<br><br>
-        We believe... In the resurrection power of Jesus Christ, the eternal life of the saved, and the eternal punishment of the lost.<br><br>
-        We believe... The only way of salvation is a personal relationship with Jesus Christ through His shed blood on the cross. (to be born again) Romans 10: 9,10 and John 3:3<br><br>
-        We believe... In water baptism by immersion for believers according to Matthew 28:19<br><br>
-        We believe... In divine healing through the power of Jesus Christ as stated in the Scriptures.<br><br>
-        We believe... In the Holy Ghost by Whom believers of Jesus Christ are regenerated, baptized into Christ, indwelt, sealed, and filled for service.<br><br>
-        We believe... In the Christian's hope and the imminent personal return of the Lord Jesus Christ.</p>
-    </div>
-    <div id="middle-greeting">
-      <img src="../images/pastorgreeting.jpg" alt="Pastor Jeff Sitting Down" class="middle-greeting-image"/>
-      <!--<h2>Pastor's Greeting</h2>-->
-      <p id="Pastor's_Greeting" class="text-middle-greeting-header">Pastor's Greeting</p><br><p class="text-middle-greeting"></p><p>As the Senior Pastor of the First Baptist Church, I would like to personally extend an open invitation to whoever, regardless of wherever you come from or whatever condition you are in.  We are here to greet you with love, to treat you with respect, and to bring forth The Word of God as God has given it to us - in His Word.  We preach and we teach out of The Word of God and The Word of God only, and that's what you'll  be hearing and seeing here at The First Baptist Church.<br>- Pastor Jeffrey E. Smith</p>
-    </div>
-    <div id="middle-sermons">
-      <img src="../images/matt-botsford-oEth91n2dhQ-unsplash.jpg" alt="Notebooks on Individual's Lap Taking Notes" class="middle-sermons-image"/>
-      <!--<h2>Sermons</h2>-->
-      <p id="Sermons" class="text-middle-sermons-header">Sermons</p><br><p class="text-middle-sermons"></p><p>We are so happy to be able to provide those who are home-bound, those who could not make a service, those who are searching for purpose in life, or those who are military - currently away protecting our freedoms, the opportunity to stay connected with our church.  May the Lord richly bless you and speak to you today through the preaching of His Word!</p>
-    </div>
-    <div id="footer">
-      <p class="left">Copyright First Baptist Church<br>207 State Street Watertown, NY 13601<br>315-782-1051<br>
-      <a href="https://www.facebook.com/First-Baptist-Church-308951212491472/">Like Us on Facebook | </a>
-      <a href="https://www.youtube.com/channel/UCA083bOE1V15k5-hwCgKaCw">Watch Us on YouTube</a></p>
-      <p class="right">JESUS CHRIST.</p>
-    </div>
-    </body>
+      </section>
+
+      <section class="main-container-5">
+        <div class="container-md-4" style="background-color: #fff;">
+          <div class="row">
+            <div class ="col-md-12" style="padding: 50px;">
+              <h5 style="font-size: 50px; text-align: center;">Our Beliefs</h5>
+              <p id="our-beliefs" class="card-text" style="color: #161925f1; font-size: 16px; text-align: center; padding: 20px 0px;">We believe... In only one God who is the creator of all things and being 
+                in the Trinity of the Father, Son, and Holy Ghost.<br><br>
+                We believe...The Son of God, Jesus Christ, became incarnate, was begotten by the Holy Ghost, born of a virgin, and is the true God and true man.<br><br>
+                We believe...The Bible, in it's entirety, to be the inspired Word of 
+                God and the only infallible rule of faith and conduct.<br><br>
+                We believe... In the resurrection power of Jesus Christ, the eternal life of the saved, and the eternal punishment of the lost.<br><br>We believe... The only way of salvation is a personal relationship with Jesus Christ through His shed blood on the cross. (to be born again) Romans 10: 9,10 and John 3:3<br><br>
+                We believe... In water baptism by immersion for believers according to Matthew 28:19<br><br>
+                We believe... In divine healing through the power of Jesus Christ as stated in the Scriptures.<br><br>
+                We believe... In the Holy Ghost by Whom believers of Jesus Christ are regenerated, baptized into Christ, indwelt, sealed, and filled for service.<br><br>
+                We believe... In the Christian's hope and the imminent personal return of the Lord Jesus Christ.
+              </p>
+            </div>
+      </section>
+      
+      <section class="main-container-6">
+        <div class="banner-container-2">
+          <a class="visit-button" style= "text-decoration: none; color: #fff; font-size: 50px;" href="connect.html">Visit</a>
+        </div>
+        <div class="banner-container-2">
+          <a class="give-button" style= "text-decoration: none; color: #fff; font-size: 50px;" href="connect.html">Give</a>
+        </div>
+        <div class="banner-container-2">
+          <a class="visit-button" style= "text-decoration: none; color: #fff; font-size: 50px;" href="connect.html">Connect</a>
+        </div>
+      </section>
+
+      <section class="main-container-7">
+        <div class="footer-container">
+          <p>Copyright First Baptist Church<br>207 State Street Watertown, NY 13601<br>315-782-1051<br>
+            <a href="https://www.facebook.com/First-Baptist-Church-308951212491472/">Like Us on Facebook | </a>
+            <a href="https://www.youtube.com/channel/UCA083bOE1V15k5-hwCgKaCw">Watch Us on YouTube</a><br>JESUS CHRIST.
+          </p>
+        </div>
+      </section>
+    </section>
+  </body>
 </html>
