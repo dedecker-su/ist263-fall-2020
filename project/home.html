@@ -1,81 +1,158 @@
 <!DOCTYPE html>
 <html lang= "en">
-	<head>
+    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0, 
       shrink-to-fit=no">
       <title>First Baptist Church Home</title>
-      <link rel="stylesheet" href="home.css"> 
-      <style>
-        /* flexbox css */
-        .row-full {display: flex;}
-        </style> 
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+      <link rel="stylesheet" href="home.css">
     </head>
     <body>
-    <div class="home-page-container">
-      <div id="row-full"></div>
-   </div>
-    <!-- Rectangle (sit on top) -->  
-      <div id="top-banner">Join us on Sundays at 10:30 am!</div>  
-    
-    <!-- Navigation Bar (right on image) -->
-      <div id="nav-bar">
-        <nav>
-          <a href="home.html">First Baptist Church</a>
-          <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="pages/about.html">About</a></li>
-            <li><a href="pages/connect.html">Connect</a></li>
-          </ul>
-        </nav>
-     </div>
-
-     <!--<div id="home-image-1"></div>-->
-
-     <div id="lighthouse-on-the-square">
-      <div id="lighthouse-on-the-square-text">
-        <h1 class="lighthouse-on-the-square-text">The Lighthouse on the Square</h1>
-        <p class="lighthouse-on-the-square-text">First Baptist Church sits on what is referred to as "The Square", which is downtown Watertown, NY, and we see our church's ministry as a lighthouse to the community there and beyond. Lighthouses are known for being lifesavers in storms, helping to guide to safety.  We, at First Baptist Church, want to be a light to those struggling in the dark throes of life, sharing with them what Christ came to accomplish here on earth, how much He loves them, and how He desires to set them free from all that ensnares them. John 8:12 says:  Then spake Jesus again unto them, saying, I am the light of the world: he that followeth me shall not walk in darkness, but shall have the light of life. (KJV)</p>
-      </div>
-    </div>
-    
-    <!--middle section-->
-    <!-- Sermons -->
-      <div id="sermons">
-        <div><p class="first">Previous Sermons</p></div>
-        <div><p class="second">Next Worship Service:</p></div><br>
-        <div><p class="third">This Sunday at 10:30 AM</p></div><br><br>
-          <div id="video">
-            <iframe width= "720" height ="480" src="https://www.youtube.com/embed/WaR-xP1Lco0"></iframe>
+      <section class="background-entire-page">   
+        
+        <section class="banner">
+          <div class="banner-container">
+            <p>Join us on Sundays at 10:30 AM!<p>
           </div>
-      </div>
-    
-    <!--Info about the church -->
-    <div id="whosoever-church">
-      <div id="whosoever-text">
-      <h1 class="whosoever-text">The Whosoever Church</h1>
-      <p class="fourth">We have a heart of compassion for people who are in need.  We count it an honor to minister to everyone God leads to our doors.  Our congregation cuts across all societal lines, including those on the streets, criminals, and drug addicts.  We do not shy away from caring for those who are generally not welcomed or loved elsewhere.  We don't look at color, wealth (or lack of), or anything else that may be a dividing wall in regular society.  Our message of reconciliation to our Heavenly Father through Jesus Christ is for everyone, and that life need not be lived in despair and hopelessness.  There is freedom in Christ!  For who? Whosoever! Whatever condition that you're in, you're welcome here at the First Baptist Church.</p>
-      </div>
-    </div>
+        </section>
 
-    <!--Visit, Give, Connect-->
-    <div id="visit">
-      <div id="visit-button"><a href="pages/connect.html">Visit</a></div>
-    </div>
-  
-    <div id="give">
-      <div id="give-button"><a href="pages/connect.html">Give</a></div>
-    </div>
+        <section class="nav-container">
+          <nav class="navbar navbar-light" style="background-color: #f3f3f3">
+            <a class="navbar-brand" style="color: #161925f1" href="home.html">First Baptist Church
+            </a>
+              <ul class="nav justify-content-end">
+                <li class="nav-item">
+                <a class="nav-link active" style="color: #161925f1" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" style="color: #161925f1" href="pages/about.html">About</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" style="color: #161925f1" href="pages/connect.html">Connect</a>
+                </li>
+              </ul>
+          </nav>
+        </section>
 
-    <div id="connect">
-      <div id="connect-button"><a href="pages/connect.html">Connect</a></div>
-    </div>
-    
-    <div id="footer">
-      <p class="left">Copyright First Baptist Church<br>207 State Street Watertown, NY 13601<br>315-782-1051<br>
-  	  <a href="https://www.facebook.com/First-Baptist-Church-308951212491472/">Like Us on Facebook | </a>
-        <a href="https://www.youtube.com/channel/UCA083bOE1V15k5-hwCgKaCw">Watch Us on YouTube</a></p>
-      <p class="right">JESUS CHRIST.</p>
-    </div>
-    </body>
+        <section class="main-container">
+          <div class="jcp-image">
+            <img src="images/fbbluebanner.jpg" class="img-fluid w-100" alt="Large banner of Church saying, Jesus Christ, period.">
+          </div>
+        </section>
+
+        <section class="main-container-2">
+          <article class="lighthouse-on-the-square">
+            <div class="jumbotron jumbotron-fluid">
+              <div class="row">
+                <div class="col-sm-12" >
+                  <h1 class="display-4 text-center">The Lighthouse on the Square</h1>
+                </div>
+                <div class="col-sm-12">
+                  <p class="lead text-center">First Baptist Church sits on what is referred to as "The Square", which is downtown Watertown, NY, and we see our church's ministry as a lighthouse to the community there and beyond. Lighthouses are known for being lifesavers in storms, helping to guide to safety.  We, at First Baptist Church, want to be a light to those struggling in the dark throes of life, sharing with them what Christ came to accomplish here on earth, how much He loves them, and how He desires to set them free from all that ensnares them. John 8:12 says:  Then spake Jesus again unto them, saying, I am the light of the world: he that followeth me shall not walk in darkness, but shall have the light of life. (KJV)</p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section class="main-container-3">
+          <div class="sermons-container-fluid">
+            <div class="sermons-text-container">
+              <p class="sermons-text">Sermons</p><br>
+              <p class="next-worship-service-text">Next Worship Service:</p>
+              <p class="worship-time-text">This Sunday at 10:30 AM</p><br>
+            </div>
+            <div class="video-gallery-container">
+              <div class="row">
+                <div class="col-sm-4 center">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/BLkinRY6Cv8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+                <div class="col-sm-4 center">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/A56ms53j9lg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+                <div class="col-sm-4 center">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/PZQH9OmYSVU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="main-container-4">
+          <article class="whosoever-church">
+            <div class="jumbotron jumbotron-fluid">
+              <div class="row">
+                <div class="col-sm-12" >
+                  <h1 class="display-4 text-center">The Whosoever Church</h1>
+                </div>
+                <div class="col-sm-12">
+                  <p class="lead text-center">We have a heart of compassion for people who are in need.  We count it an honor to minister to everyone God leads to our doors.  Our congregation cuts across all societal lines, including those on the streets, criminals, and drug addicts.  We do not shy away from caring for those who are generally not welcomed or loved elsewhere.  We don't look at color, wealth (or lack of), or anything else that may be a dividing wall in regular society.  Our message of reconciliation to our Heavenly Father through Jesus Christ is for everyone, and that life need not be lived in despair and hopelessness.  There is freedom in Christ!  For who? Whosoever! Whatever condition that you're in, you're welcome here at the First Baptist Church.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+                
+        <section class="main-container-5">
+          <div id="events" class="events-text-container">
+            <p class="join-us-text">Join Us!</p><br>
+            <p class="events-text">Events Happening:</p>
+            <p class="days-text">Sundays, Tuesdays & Wednesdays</p><br>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <img src="images/sundayschool2.jpg" class="img-fluid" alt="An overhead view of a table with individuals studying and pointing at a passage in an open Bible.">
+            </div>
+            <div class="col-md-4">
+                <img src="images/prayer1.jpg" class="img-fluid" alt="A picture of a girl praying with an open Bible.">
+            </div>
+            <div class="col-md-4">
+              <img src="images/worship1.jpg" class="img-fluid" alt="A picture of an open hand outstretched into shining light.">
+            </div>
+          </div>
+        </section>
+
+        <section class="main-container-6">
+          <div class="row">
+            <div class="col-md-4 text-center">
+              <a class="sunday-school-button" style= "text-decoration-color: #161925f1; color: #161925f1; font-size: 20px;" href="pages/connect.html">Sunday School & Bible Study</a>
+            </div>
+            <div class="col-md-4 text-center">
+              <a class="prayer-button" style= "text-decoration-color: #161925f1; color: #161925f1; font-size: 20px;" href="pages/connect.html">Prayer</a>
+            </div>
+            <div class="col-md-4 text-center">
+              <a class="worship-button" style= "text-decoration-color: #161925f1; color: #161925f1; font-size: 20px;" href="pages/connect.html">Worship</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="main-container-7">
+          <div class="banner-container-2">
+            <a class="visit-button" style= "text-decoration: none; color: #fff; font-size: 50px;" href="pages/connect.html">Visit</a>
+          </div>
+          <div class="banner-container-2">
+              <a class="give-button" style= "text-decoration: none; color: #fff; font-size: 50px;" href="pages/connect.html">Give</a>
+          </div>
+          <div class="banner-container-2">
+            <a class="visit-button" style= "text-decoration: none; color: #fff; font-size: 50px;" href="pages/connect.html">Connect</a>
+          </div>
+        </section>
+
+        <section class="main-container-8">
+          <div class="footer-container">
+            <p>Copyright First Baptist Church<br>207 State Street Watertown, NY 13601<br>315-782-1051<br>
+              <a href="https://www.facebook.com/First-Baptist-Church-308951212491472/">Like Us on Facebook | </a>
+              <a href="https://www.youtube.com/channel/UCA083bOE1V15k5-hwCgKaCw">Watch Us on YouTube</a><br>JESUS CHRIST.
+            </p>
+          </div>
+        </section>
+      </section>
+  </body>
 </html>
